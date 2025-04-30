@@ -9,6 +9,8 @@ function App() {
       <div className="mainbody" style={{ backgroundColor: color }}>
         <h3>To modify the background color, please click on the button below</h3>
         <h4>Testing the git reset HEAD~X command</h4>
+        <h4>Testing the git demo example</h4>
+
         <div className="myitem">
           <button
             onClick={() => setColor("red")}
